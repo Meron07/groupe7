@@ -16,7 +16,7 @@ section {
 header {
     min-height: 100vh;
 
-    background-image: url("images/Background.jpeg");
+    background-image: url("/images/Background.jpeg");
     background-position: 35% 35%;
     background-repeat: no-repeat;
     background-size: cover;
