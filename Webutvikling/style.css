@@ -16,8 +16,8 @@ section {
 header {
     min-height: 100vh;
 
-    background-image: url("images/background.jpg");
-    background-position: center;
+    background-image: url("images/background.jpeg");
+    background-position: 35% 35%;
     background-repeat: no-repeat;
     background-size: cover;
    border-bottom: 2px solid #110b15;
@@ -70,7 +70,7 @@ section > h5 {
 
 /* Fixed Header */
 
-.fixed-header {
+.fixed-top {
     position: fixed;
     top: 0;
     left: 0;
@@ -84,17 +84,17 @@ section > h5 {
     align-items: center;
 }
 
-.fixed-header nav {
+.fixed-top nav {
     padding: .6rem 2rem;
 }
 
-.fixed-header .brand {
+.fixed-top .brand {
     color: #4efc03;
     padding: 0 2rem;
     font-size: 2rem;
 }
 
-.fixed-header nav a {
+.fixed-top nav a {
     margin-left: .6rem;
     padding: 0 .6rem;
     text-decoration: none;
@@ -102,7 +102,7 @@ section > h5 {
     transition: .08s;
 }
 
-.fixed-header nav a:hover {
+.fixed-top nav a:hover {
     background-color: #2f6a57;
     color: #ffffff;
 }
