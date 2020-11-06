@@ -7,7 +7,7 @@ body {
 nav {
     height: 115px;
     color: #05386b;
-    background-color: #5cdb95;
+    background-color: #0af396;
 }
 
 nav img {
@@ -19,13 +19,21 @@ nav img {
     position: absolute;
     left: 10px;
 }
+.topbox li a {
+    display: block;
+    color: #ff652f;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 1em;
+}
 
 nav h1 {
     position: absolute;
     left: 120px;
     margin-top: 39px;
 }
-
+/*
 nav ul {
     float: right;
     list-style: none;
@@ -35,11 +43,36 @@ nav ul {
     right: 45px;
     font-size: 20px;
 }
+*/
 
+topbox {
+    font-size: 25px;
+}
+
+.topbox ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul rightbox {
+    float: right;
+}
+
+/*
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+ */
 
 a:link {
     color: #05386b;
@@ -63,34 +96,50 @@ main img {
     margin-bottom: 50px;
 }
 
-.table {
-    display: table;
-    margin-left: 300px;
+
+
+/* boks med text */
+
+#list > div {
+    font-size: 1.4rem;
+    width: 50%;
+    padding: 0 3rem;
 }
-
-.rad {
-    display: table-row;
-    height: 350px;
-    margin-left: 25%;
+#information {
+    padding: 4rem;
 }
-
-.celle {
-    display: table-cell;
-    height: 300px;
-    width: 300px;
-}
-
-/* Få det inn i en tabell istedet for absolute positioning */
-#produktbilde {
-    position: absolute;
-    top: 1000px;
-    left: 650px;
-
-}
-
-#produktbildetekst {
-    position: absolute;
-    top: 1000px;
-    left: 950px;
+#information > h1 {
     text-align: center;
+    font-size: 2.4rem;
 }
+#information .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#information .list > div {
+    width: 400px;
+    max-width: 95vw;
+    padding: 14px;
+    border: 1px solid #efceab;
+    color: #15152b;
+    border-radius: 3px;
+    margin: 2rem;
+}
+
+
+
+
+/* fotter */
+footer {
+    color: #ffffff;
+    background-color: #070a12;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer details {
+    text-align: right;
+}
+
