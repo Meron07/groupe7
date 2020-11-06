@@ -206,11 +206,11 @@ footer details summary:hover {
 /* Responsiveness */
 
 @media(max-width: 600px) {
-    .fixed-header {
+    .fixed-top {
         flex-direction: column;
     }
 
-    .fixed-header nav a {
+    .fixed-top nav a {
         font-size: 1rem;
     }
 }
